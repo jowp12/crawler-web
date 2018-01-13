@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<link rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+<script src="/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<script src="jquery-3.2.1.min.js"></script>
+<form action="/createTask.json" method="get">
+    <div class="form-group">
+        <label for="seedUrl">url address</label>
+        <input name="seedUrl" type="text" required class="form-control" id="seedUrl" placeholder="seed url">
+    </div>
+    <div class="form-group">
+        <label for="dayNum">dayNum</label>
+        <input type="number" required class="form-control" id="dayNum" name="dayNum" placeholder="天数">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</body>
+</html>
